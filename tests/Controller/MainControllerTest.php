@@ -16,7 +16,7 @@ class MainControllerTest extends TestCase
     {
         $request = Mockery::mock(Request::class)->makePartial();
         $app = Mockery::mock(Application::class)->makePartial();
-        $mainController = Mockery::mock(MainController::class)->makePartial();
+        $mainController = Mockery::mock(MainController::class);
 
         // TODO Test it once your "MainController::indexAction()" is implemented
     }
