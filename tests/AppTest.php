@@ -26,9 +26,9 @@ class MainControllerTest extends WebTestCase
     {
         $app = new Application();
 
-        require __DIR__ . '/../../app/config/dev.php';
-        require __DIR__ . '/../../app/bootstrap.php';
-        require __DIR__ . '/../../app/routes.php';
+        require dirname(__DIR__) . '/app/config/dev.php';
+        require dirname(__DIR__) . '/app/bootstrap.php';
+        require dirname(__DIR__) . '/app/routes.php';
 
         // Generate raw exceptions instead of HTML pages if errors occur
         unset($app['exception_handler']);
