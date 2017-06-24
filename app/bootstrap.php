@@ -53,10 +53,3 @@ $app->error(function (Exception $except, Request $request, int $code) use ($app)
     return $app['twig']->render('error.html.twig', array('message' => $message));
 });
 
-// Register JSON data decoder for JSON requests
-$app->before(function (Request $request) {
-    if (0 === strpos($request->headers->get('Content-Type'), 'application/json')) {
-        $data = json_decode($request->getContent(), true);
-        $request->request->replace(is_array($data) ? $data : array());
-    }
-});
