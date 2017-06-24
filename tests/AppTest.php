@@ -46,6 +46,7 @@ class MainControllerTest extends WebTestCase
     {
         return [
             ['/'] // Homepage
+            // Add other paths when more in routes.php
         ];
     }
 }
