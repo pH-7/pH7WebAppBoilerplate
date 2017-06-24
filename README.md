@@ -1,4 +1,4 @@
-# pH7WebAppBoilerplate
+# pH7 WebApp Boilerplate
 
 A Powerful, Modern and Lightweight PHP 7.1+ Boilerplate to build fastly robust web apps or small/medium SaaS.
 
