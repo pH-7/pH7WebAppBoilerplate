@@ -11,7 +11,7 @@
 <body>
     <nav>
         <div class="nav-wrapper">
-            <a class="navbar-brand" href="{{ path('home') }}">pH7Boilerplate</a>
+            <a class="brand-logo center" href="{{ path('home') }}">pH7Boilerplate</a>
             <ul id="nav-mobile" class="right">
                 <li><a href="{{ path('home') }}">Home</a></li>
             </ul>
@@ -22,8 +22,12 @@
         {% block content %}{% endblock %}
     </div>
 
-    <footer class="footer">
-        <p>&copy; <a href="http://ph7s.github.io" title="Pierre-Henry's Page">Pierre-Henry</a> &bull; All Rights Reserved.</p>
+    <footer class="page-footer">
+        <div class="footer-copyright">
+            <div class="container">
+                © <a href="http://ph7s.github.io" title="Pierre-Henry's Page">Pierre-Henry</a> • All Rights Reserved.
+            </div>
+        </div>
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
