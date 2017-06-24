@@ -1,6 +1,6 @@
 # pH7 WebApp Boilerplate
 
-A Powerful, Modern and Lightweight PHP 7.1+ Boilerplate to build fastly robust web apps or small/medium SaaS.
+A Powerful, Modern and Lightweight PHP 7.1+ Boilerplate to build quickly robust web apps or small/medium SaaS.
 
 
 ## The Problem
@@ -11,7 +11,7 @@ We always need to think about the best architecture/patterns for the project and
 
 ## The Solution
 
-**pH7 Boilerplate** gives the best coding practices for you, with already everything setted up (.gitignore, .htaccess, composer file), the project already configured (for [Silex](https://silex.sensiolabs.org) and [Twig](https://twig.sensiolabs.org) and has all the good/useful libraries included that will make your new web app the best!
+**pH7 Boilerplate** gives the best coding practices for you, with already everything setup (.gitignore, .htaccess, composer file), the project already configured (for [Silex](https://silex.sensiolabs.org) and [Twig](https://twig.sensiolabs.org) and has all the good/useful libraries included that will make your new web app the best!
 
 
 **Simply clone it, and start developing your great web app!**
