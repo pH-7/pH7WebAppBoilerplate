@@ -14,7 +14,6 @@ use Twig_Environment;
 use Twig_Extensions_Extension_Text;
 use Exception;
 
-// Register global error and exception handlers
 ErrorHandler::register();
 ExceptionHandler::register();
 
@@ -36,7 +35,6 @@ $app['twig'] = $app->extend('twig', function(Twig_Environment $twig, $app) {
 $app->register(new AssetServiceProvider(), array(
     'assets.version' => 'v1'
 ));
-
 
 // Register Error Handler
 $app->error(function (Exception $except, Request $request, int $code) use ($app) {
