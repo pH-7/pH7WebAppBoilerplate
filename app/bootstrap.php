@@ -40,14 +40,13 @@ $app->register(new AssetServiceProvider(), array(
 $app->error(function (Exception $except, Request $request, int $code) use ($app) {
     switch ($code) {
         case 403:
-            $message = 'Access denied.';
+            $message = 'Access denied!';
             break;
         case 404:
             $message = 'The requested resource could not be found.';
             break;
         default:
-            $message = "Something went wrong.";
+            $message = 'Oops! Something went wrong...';
     }
-    return $app['twig']->render('error.html.twig', array('message' => $message));
+    return $app['twig']->render('error.twig', array('message' => $message));
 });
-
