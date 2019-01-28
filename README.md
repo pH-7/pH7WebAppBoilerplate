@@ -2,6 +2,10 @@
 
 A Powerful, Modern and Lightweight PHP 7.1+ Boilerplate to build quickly robust web apps or small/medium SaaS.
 
+**pH7WebAppBoilerplate** is based on [Silex](https://silex.symfony.com). Since Symfony 4, it is now [recommended to use Symfony 4](https://symfony.com/blog/the-end-of-silex
+) instead (Symfony 4 is as lightweight as using Silex). 
+Silex isn't maintained anymore, so this project is now marked as archived.
+
 
 ## The Problem
 
